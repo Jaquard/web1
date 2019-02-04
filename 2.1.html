@@ -1,26 +1,41 @@
 <!doctype html>
 <html>
-<head>S
+<head>
     <title>WEB-CSS</title>
     <meta charset="utf-8">
+<link rel="stylesheet" href="style1.css">
+
 </head>
 
-<body>
-  <h1><a href="index.html"> WEB</a></h1>
-    <ol>
-      <li><a href="1.1.html" target="_blank" title="HTML">HTML</a></li>
-      <li><a href="2.1.html" target="_blank" title="CSS">CSS</a></li>
-      <li><a href="3.1.html" target="_blank" title="JavaScript">JavaScript</a></li>
-    </ol>
-    <ul>
-      <li>Jin</li>
-      <li>Alicia</li>
-      <li>Hannah</li>
-    </ul>
+<body style="background-color:#EFEBE9;">
+  <input type="button" value="night" onclick="
+  document.querySelector('body').style.backgroundColor='black';
+  document.querySelector('body').style.color='white';
 
-    <h2>CSS이란?</h2>
+  ">
+  <input type="button" value="day" onclick="
+  document.querySelector('body').style.backgroundColor='white';
+  document.querySelector('body').style.color='black';
+
+  ">
+  <h1><a href="index.html"> WEB</a></h1>
+  <div id="grid">
+    <ol><b>
+          <li><a href="1.1.html"">HTML</a></li>
+          <li><a href="2.1.html"style:"color:red;">CSS</a></li>
+          <ul><b>
+            <li><a href="boxmodel.html">Box Model</a></li>
+            <li><a href="grid.html">Grid</a></li>
+            <li><a href="mediaquery.html">Media Query</a></li>
+            <li><a href="style1.css">Stylesheet</a></li>
+          </b></ul>
+          <li><a href="3.1.html">JavaScript</a></li>
+    </b></ol>
+
+<div>
+    <h2><strong>CSS</strong></h2>
     <img src="css.jpg" width="500">
-    <p><a href="https://www.w3.org/Style/CSS/specs.en.html" target="_blank" title="CSS Specification">Cascading Style Sheets (CSS)Cascading Style Sheets (CSS)</a> is a style sheet language used for describing the presentation of a document written in a markup language like HTML.[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]
+    <p><a href="https://www.w3.org/Style/CSS/specs.en.html" target="_blank" title="CSS Specification">Cascading Style Sheets (CSS)</a> is a style sheet language used for describing the presentation of a document written in a markup language like HTML.[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]
 
 <p>CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.[3] This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content.</p>
 
@@ -32,11 +47,9 @@
 
 In addition to HTML, other markup languages support the use of CSS including XHTML, plain XML, SVG, and XUL.</p>
 
+</div>
 
-
-    </p>
-
-    <p>
+</div>
 
       <div id="disqus_thread"></div>
       <script>
@@ -77,7 +90,7 @@ In addition to HTML, other markup languages support the use of CSS including XHT
          </script>
          <!--End of Tawk.to Script-->
        </p>
-       
+
 
 </body>
 </html>

@@ -3,25 +3,41 @@
 <head>
     <title>Web-HTML</title>
     <meta charset="utf-8">
+  <link rel="stylesheet" href="style1.css">
 </head>
 
-<body>
-  <h1><a href="index.html"> WEB</a></h1>
-    <ol>
-      <li><a href="1.1.html" target="_blank" title="HTML">HTML</a></li>
-      <li><a href="2.1.html" target="_blank" title="CSS">CSS</a></li>
-      <li><a href="3.1.html" target="_blank" title="JavaScript">JavaScript</a></li>
-    </ol>
-    <ul>
-      <li>Jin</li>
-      <li>Alicia</li>
-      <li>Hannah</li>
-    </ul>
+<body style="background-color:#EFEBE9;">
+  <input type="button" value="night" onclick="
+  document.querySelector('body').style.backgroundColor='black';
+  document.querySelector('body').style.color='white';
 
-    <h2>HTML이란</h2>
+  ">
+  <input type="button" value="day" onclick="
+  document.querySelector('body').style.backgroundColor='white';
+  document.querySelector('body').style.color='black';
+
+  ">
+  <h1><a href="index.html"> WEB</a></h1>
+  <div id="grid">
+    <ol style=" color: #616161; font-family:sans-serif; font-weight: bold;">
+          <li><a href="1.1.html"style:"color:red;">HTML</a></li>
+          <li><a href="2.1.html">CSS</a></li>
+                <ul>
+                  <li><a href="boxmodel.html">Box Model</a></li>
+                  <li><a href="grid.html">Grid</a></li>
+                  <li><a href="mediaquery.html">Media Query</a></li>
+                  <li><a href="style1.css">Stylesheet</a></li>
+                </ul>
+
+          <li><a href="3.1.html">JavaScript</a></li>
+    </ol>
+
+
+<div>
+    <h2><strong>HTML</strong></h2>
+    <img src="tree123.jpg" width="500px"></p>
 
     <p><a href="https://www.w3.org/TR/html52/" target="_blank" title="This is a tool tip for HTML5 specification">Hypertext Markup Language(HTML)</a> is the standard markup language for <strong>creating <u>web</u> pages</strong> and <strong>web applications</strong>.
-    <img src="tree123.jpg" width="100%"></p>
 
     <p>Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages.
       HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
@@ -29,14 +45,15 @@
     <p>HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms
       may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for
       text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.
-      Tags such as <img /> and <input /> directly introduce content into the page. Other tags such as</p>
+      Tags such as img/ and input/ directly introduce content into the page. Other tags such as</p>
 
     <p> surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags,
         but use them to interpret the content of the page.</p>
     <p>HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and content of web pages.
       Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium (W3C), maintainer of both the HTML and the
       CSS standards, has encouraged the use of CSS over explicit presentational HTML since 1997.[5]</p>
-
+</div>
+</div>
         <p>
 
         <div id="disqus_thread"></div>
@@ -78,6 +95,6 @@
      </script>
      <!--End of Tawk.to Script-->
    </p>
-   
+
 </body>
 </html>
